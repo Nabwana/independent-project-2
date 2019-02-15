@@ -19,6 +19,6 @@ else if (hypotenuse===adjacent||hypotenuse===opposite||adjacent===opposite){
 }
 
 else if (hypotenuse!==adjacent||hypotenuse!==opposite&&adjacent!==opposite){
-    alert("This is a ");
+    alert("This is a scalene");
   }
 }
