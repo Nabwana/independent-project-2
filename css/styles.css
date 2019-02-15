@@ -6,4 +6,14 @@ p{
   font weight: bold;
   font-size: 25px;
 }
-.breaker
+.breaker{
+  background-image: url("../images/red.jpeg");
+  margin-top: 200px;
+  padding-top: 70px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+.button{
+  font-size: 20px;
+}
