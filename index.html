@@ -5,19 +5,22 @@
     <title></title>
     <a href="css/styles.css" rel="stylesheet"></a>
   </head>
+
   <body>
     <h1>Triangle Tracker</h1>
-    <form class="Indicators" action="index.html" method="post">
+    <p>This webpage will ask the user for three lengths and we will tell you what type of triangle can be formed with those sides.</p>
 
-  <input type="number"  placeholder="ENTER"
+
+  <input type="number" id="hypotenuse"  placeholder="ENTER"
 
 <label for="ENTER">Hypotenuse</label>
 <br><br>
-<input type="number" name="adjacent" placeholder="ENTER">
+<input type="number" id="adjacent" placeholder="ENTER">
 <label for="ENTER">Adjacent</label>
 <br><br>
-<input type="number" name="opposite" placeholder="ENTER">
+<input type="number" id="opposite" placeholder="ENTER">
 <label for="ENTER">Opposite</label>
+
   </form>
   <br>
   <button type="button" onclick="results"></button>
