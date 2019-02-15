@@ -1,0 +1,9 @@
+body{
+  text-align: center;
+  background-image: url("../images/blue.png");
+}
+p{
+  font weight: bold;
+  font-size: 25px;
+}
+.breaker
