@@ -6,7 +6,7 @@ var opposite =parseInt(document.getElementById("adjacent").value);
 
 
 if (hypotenuse===adjacent && hypotenuse===opposite && adjacent===opposite){
- alert("This is an Equilateral Triangle");
+ alert("This is an  Triangle");
 }
 
 else if( (hypotenuse+adjacent)<=opposite||(hypotenuse+opposite)<=adjacent||(adjacent+opposite)<=hypotenuse ){
